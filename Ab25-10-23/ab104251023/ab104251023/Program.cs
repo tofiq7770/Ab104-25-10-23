@@ -3,7 +3,7 @@
     static void Main(string[] args)
     {
         string jsonFilePath = "names.json";
-        NameManager nameManager = new NameManager(jsonFilePath);
+        Name nameManager = new Name(jsonFilePath);
         string name = "Ali";
 
         //nameManager.Add(name);
